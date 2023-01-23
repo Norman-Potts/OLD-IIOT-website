@@ -38,3 +38,8 @@ To finish this project a development strategy should be considered.
 
 
 
+To run this project you must be using node v12.14.1 and npm v6.13.4.
+
+
+
+

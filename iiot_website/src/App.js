@@ -19,7 +19,9 @@ class App extends Component {
   componentDidMount() {   
     caller.GET( '/GetInfo', cb, this   );
     function cb(data, that) {
+      
       var appdata = JSON.parse( data );      
+      
       that.setState({
         AppData: appdata      
       });

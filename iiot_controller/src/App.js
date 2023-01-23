@@ -38,6 +38,7 @@ class App extends Component {
 		Grabs appdata so it can be rendered and also edited.
 	*/
     caller.GET( '/GetInfo', (data) => {
+      
       var appdata = JSON.parse( data );           
       this.setState({
         AppData: appdata      

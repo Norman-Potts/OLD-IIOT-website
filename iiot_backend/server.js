@@ -16,7 +16,7 @@ MYDBSTUFF.plzdomydbsetup(); //// Run Database Set up.
 const adminLogins = MYDBSTUFF.adminLogins;
 const handleEvents = require('./handleEvents.js');
 handleEvents.Setup();
-const REGULARROUTES = require('./routes/regularroutes');
+const REGULARROUTES = require('./routes/regularRoutes');
 
 /** Express App Setup and MiddleWare stuff. */
 const APP = EXPRESS();

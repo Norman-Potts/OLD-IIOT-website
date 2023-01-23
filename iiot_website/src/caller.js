@@ -8,6 +8,7 @@ function POST(  thing, destination, cb, that ) {
         if (http.readyState === 4 && http.status === 200) {
             
             var data = http.responseText;
+          
             if (data[0] === '<') {
                 window.location.replace("/Login/");
             } else {
@@ -26,7 +27,8 @@ function GET( destination, cb, that ) {
     var http = new XMLHttpRequest();
     http.onreadystatechange = function() {
         if (http.readyState === 4 && http.status === 200) {            
-            var data = http.responseText;                        
+            var data = http.responseText;    
+          console.log(destination)     
             cb(data, that);            
         }
         else if (  http.status === 300) {
