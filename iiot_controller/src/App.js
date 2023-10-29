@@ -57,6 +57,7 @@ class App extends Component {
   */
   reload = () => {
     caller.GET( '/GetInfo', (data) => {
+     
       var appdata = JSON.parse( data );            
       this.setState({
         AppData: appdata      

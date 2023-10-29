@@ -3,10 +3,10 @@ import TheFooter from './components/TheFooter.js';
 import TheHeader from './components/TheHeader.js';
 import TheMain from './components/TheMain.js';
 import caller from './caller.js';
+
 import {
   BrowserRouter as Router,
 } from 'react-router-dom';
-
 
 
 class App extends Component {
@@ -34,12 +34,14 @@ class App extends Component {
     } else {
       main = <TheMain AppData = {this.state.AppData}  />;
     }
+    
     return (
-      <div >        
-        <Router>
-        <TheHeader />
-        {main}
-        </Router>            
+      <div>        
+          <Router>
+          <TheHeader />
+          {main}
+          </Router>
+         
         <TheFooter />
       </div>
     );

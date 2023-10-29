@@ -17,7 +17,6 @@ class Project extends Component {
 	var projectHeader = {
 		overflow:'hidden'
 	};
-	console.log(this.props.p);
 
     return (
         <div id = 'A_Project_Page'>

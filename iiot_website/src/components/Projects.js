@@ -7,11 +7,12 @@ import {
   
 
 class Projects extends Component {
+   
   render() {
     var arry = this.props.projs; 
     var prolinks = [];    
     prolinks = arry.map( (p, i) => 
-        <Link to = { `/Project_${i}`}  key = {i}  className = 'Project'  >            
+        <Link to = { `/Project_${i}`}  key = {i}  className = 'Project'>            
 			<MYImg ImageName = {p.img.ImageName} ImageDescription = {p.img.ImageDescription} />			
             <div className = 'ProjText'> 
                 <h3>{p.Title}</h3>                           

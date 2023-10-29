@@ -28,7 +28,7 @@ function GET( destination, cb, that ) {
     http.onreadystatechange = function() {
         if (http.readyState === 4 && http.status === 200) {            
             var data = http.responseText;    
-          console.log(destination)     
+
             cb(data, that);            
         }
         else if (  http.status === 300) {

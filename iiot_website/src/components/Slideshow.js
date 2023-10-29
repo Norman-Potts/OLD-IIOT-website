@@ -5,7 +5,6 @@ import MYImg from './MYImg.js';
 
 class Slideshow extends Component {
   render() {
-	console.log(this.props);
     var descip = this.props.SlideImg.ImageDescription;
     var iname = this.props.SlideImg.ImageName;		
 	var img = <MYImg ImageName = {iname} ImageDescription = {descip} className = 'slide' />;		        

@@ -22,7 +22,7 @@ class TheHeader extends Component {
 
           <nav className = 'leave'> 
             <p>Leave</p>
-            <a href = 'https://normanpotts.com/WebPortfolio/IIOT' className = 'GoToWebsite' > Go To Live Website</a>
+            <a href = 'http://localhost:3000/' className = 'GoToWebsite' > Go To Live Website</a>
             <a href = '/logout' className = 'logout' > Logout </a>
           </nav>  
 

@@ -7,8 +7,9 @@ class MYImg extends Component {
 	  var ImageDescription = this.props.ImageDescription;
 	  var cls = this.props.className;			  
 	  var img;
+	 
 		try {
-			img = (   <img src = {require(`../../../iiot_backend/images/${ImageName}`)} alt= {ImageDescription}   className = {cls} ></img> );
+			img = (   <img src = {require(`./../images/${ImageName}`)} alt= {ImageDescription}   className = {cls} ></img> );
 		} catch(e) {
 			img = (
 				<div className = 'section_Img_Continer' >

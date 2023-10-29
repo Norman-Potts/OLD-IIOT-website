@@ -9,14 +9,17 @@ import {
 
 
 class TheHeader extends Component {
-    render() {
+  
+  
+  render() {
+
     return (
       <header>             
           <h1>             
             Mohawk College - <Link to ='/' id ="homeLink" > Industrial Internet Of Things Laboratory </Link> 
           </h1>                             
           <nav> 
-            <NavLink activeClassName='SelectedPage'  exact={true} to ='/'    > About </NavLink>
+            <NavLink activeClassName='SelectedPage'  exact={true} to ='/' > About </NavLink>
             <NavLink activeClassName='SelectedPage'  to = '/Projects' > Projects </NavLink>
             <NavLink activeClassName='SelectedPage'  to = '/People' > People </NavLink>            
             <NavLink activeClassName='SelectedPage'  to = '/Events'   > Events </NavLink>    
