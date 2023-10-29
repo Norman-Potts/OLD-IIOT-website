@@ -34,7 +34,7 @@ const Original = {
     {
       route: "Project_1",
       title: "Road Weather Analyser ",
-      Description: "Students made a weather thinggy.",
+      Description: "Students created a system that knows the weather conditions on the road.",
       img: {
         ImageName: "cold-weather.jpg",
         ImageDescription: "A project that analysis the weather on the road. ",
@@ -124,19 +124,19 @@ const Original = {
   EventList: [
     {
       title: "Summer School Sign Up ",
-      date: "2019-08-27",
+      date: "2023-10-27",
       st: "14:30:00",
       et: "10:00:00",
       description:
-        "This would be the description. Blah BLah Blah. It is time to sign up for summer school.",
+        "This would be the description. It is time to sign up for summer school.",
     },
     {
       title: "Pizza Day",
-      date: "2019-08-28",
+      date: "2023-10-29",
       st: "15:30:00",
       et: "09:00:00",
       description:
-        "This would be the description. Blah Blah Blah. Pizza is yummy.",
+        "This would be the description. Lorem ipsum dolor. Lorem ipsum dolor.",
     },
   ],
 };
