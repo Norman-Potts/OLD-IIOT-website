@@ -15,8 +15,8 @@ const Original = {
       {
         heading: "Section 1",
         img: {
-          ImageName: "goose.jpg",
-          ImageDescription: "This is an image of a goose. ",
+          ImageName: "img4.jpg",
+          ImageDescription: "Software is cool.",
         },
         paragraphs: ["Duis vel odio nisl. Integer at sagittis velit. Integer venenatis molestie ex elementum semper. Cras a tellus sagittis turpis auctor euismod et eu nunc. Donec dolor turpis, ultricies at metus vel, tristique bibendum urna. Etiam rutrum imperdiet turpis at condimentum. Nullam in molestie elit. Nunc convallis, erat ac congue tincidunt, massa mauris ultrices mi, ac feugiat sapien magna in diam. Phasellus consectetur malesuada dictum. Integer ornare arcu accumsan pellentesque aliquet. Donec interdum orci convallis sem ultrices posuere. Suspendisse eu leo et diam vestibulum ultricies vel quis leo.", " Duis vel odio nisl. Integer at sagittis velit. Integer venenatis molestie ex elementum semper. Cras a tellus sagittis turpis auctor euismod et eu nunc. Donec dolor turpis, ultricies at metus vel, tristique bibendum urna. Etiam rutrum imperdiet turpis at condimentum. Nullam in molestie elit. Nunc convallis, erat ac congue tincidunt, massa mauris ultrices mi, ac feugiat sapien magna in diam. Phasellus consectetur malesuada dictum. Integer ornare arcu accumsan pellentesque aliquet. Donec interdum orci convallis sem ultrices posuere. Suspendisse eu leo et diam vestibulum ultricies vel quis leo. "],
       },
@@ -33,19 +33,19 @@ const Original = {
   projects: [
     {
       route: "Project_1",
-      title: "Project Weather thingy",
+      title: "Road Weather Analyser ",
       Description: "Students made a weather thinggy.",
       img: {
-        ImageName: "goose.jpg",
-        ImageDescription: "This is an image of a goose. ",
+        ImageName: "cold-weather.jpg",
+        ImageDescription: "A project that analysis the weather on the road. ",
         alt: "image of dog tracker",
       },
       doc: [
         {
           heading: "Project 1",
           img: {
-            ImageName: "goose.jpg",
-            ImageDescription: "This is an image of a goose. ",
+            ImageName: "purple-sky.jpg",
+            ImageDescription: "The sky with purple filter.",
           },
           paragraphs: [
             " Duis vel odio nisl. Integer at sagittis velit. Integer venenatis molestie ex elementum semper. Cras a tellus sagittis turpis auctor euismod et eu nunc. Donec dolor turpis, ultricies at metus vel, tristique bibendum urna. Etiam rutrum imperdiet turpis at condimentum. Nullam in molestie elit. Nunc convallis, erat ac congue tincidunt, massa mauris ultrices mi, ac feugiat sapien magna in diam. Phasellus consectetur malesuada dictum. Integer ornare arcu accumsan pellentesque aliquet. Donec interdum orci convallis sem ultrices posuere. Suspendisse eu leo et diam vestibulum ultricies vel quis leo.",
@@ -70,16 +70,16 @@ const Original = {
       title: "Project Dog Tracker",
       Description: "This project is all about tracking dogs at a farm.",
       img: {
-        ImageName: "goose.jpg",
-        ImageDescription: "This is an image of a goose. ",
-        alt: "image of dog tracker",
+        ImageName: "Dogs.jpg",
+        ImageDescription: "These dogs are working on the project.",
+        alt: "Image of four dogs.",
       },
       doc: [
         {
           heading: "Project 1",
           img: {
-            ImageName: "goose.jpg",
-            ImageDescription: "This is an image of a goose. ",
+            ImageName: "img6.jpg",
+            ImageDescription: "Technology is great. ",
           },
           paragraphs: [
             " Lorem ipsum dolor sit ame lamco labo Duis vel odio nisl. Integer at sagittis velit. Integer venenatis molestie ex elementum semper. Cras a tellus sagittis turpis auctor euismod et eu nunc. Donec dolor turpis, ultricies at metus vel, tristique bibendum urna. Etiam rutrum imperdiet turpis at condimentum. Nullam in molestie elit. Nunc convallis, erat ac congue tincidunt, massa mauris ultrices mi, ac feugiat sapien magna in diam. Phasellus consectetur malesuada dictum. Integer ornare arcu accumsan pellentesque aliquet. Donec interdum orci convallis sem ultrices posuere. Suspendisse eu leo et diam vestibulum ultricies vel quis leo.",
@@ -89,8 +89,8 @@ const Original = {
         {
           heading: "Project 2",
           img: {
-            ImageName: "goose.jpg",
-            ImageDescription: "This is an image of a goose. ",
+            ImageName: "huskyHappy.jpg",
+            ImageDescription: "A happy Husky. ",
           },
           paragraphs: [
             " Lorem ipsum dolor sit ame lamco labo Duis vel odio nisl. Integer at sagittis velit. Integer venenatis molestie ex elementum semper. Cras a tellus sagittis turpis auctor euismod et eu nunc. Donec dolor turpis, ultricies at metus vel, tristique bibendum urna. Etiam rutrum imperdiet turpis at condimentum. Nullam in molestie elit. Nunc convallis, erat ac congue tincidunt, massa mauris ultrices mi, ac feugiat sapien magna in diam. Phasellus consectetur malesuada dictum. Integer ornare arcu accumsan pellentesque aliquet. Donec interdum orci convallis sem ultrices posuere. Suspendisse eu leo et diam vestibulum ultricies vel quis leo.",

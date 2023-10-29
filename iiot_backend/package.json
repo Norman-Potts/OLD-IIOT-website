@@ -4,10 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "concurrently \"npm run backend\" \"npm run website\" \"npm run controller\"  ",
+    "start": "concurrently \"npm run backend\" \"npm run website\" ",
     "backend": "nodemon server --ignore 'AppData.json'",
-    "website": "cd ../iiot_website/ && npm start ",
-    "controller": "cd ../iiot_controller/ && npm start "
+    "website": "cd ../iiot_website/ && npm start "
   },
   "author": "",
   "license": "ISC",

@@ -14,7 +14,7 @@ class Section extends Component {
 		ImageBlock	= (
 			<div className = 'section_Img_Continer' >
 			{img}			
-			<div className = 'textImg'> This is the image description. </div>	
+			<div className = 'textImg'> {this.props.sec.img.ImageDescription} </div>	
 			</div>			
 		);			
 	}

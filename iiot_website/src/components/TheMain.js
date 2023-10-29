@@ -4,7 +4,6 @@ import About from "./About.js";
 import Events from "./Events.js";
 import People from "./People.js";
 import Projects from "./Projects.js";
-import Project from "./Project.js";
 
 import { BrowserRouter as Route,  Switch } from "react-router-dom";
 
@@ -13,13 +12,9 @@ class TheMain extends Component {
     var AboutInfo = this.props.AppData.AboutPage;
     var PeopleInfo = this.props.AppData.PeoplePage;
     var EventList = this.props.AppData.EventList;
-    var projs = this.props.AppData.projects;
+    var ProjectsInfo = this.props.AppData.projects;
 
-    var rou = projs.map((p, i) => (
-      <Route key={i} path={`/Project_${i}`}>
-        <Project p={p} />
-      </Route>
-    ));
+
 
     return (
       <main>
@@ -29,9 +24,9 @@ class TheMain extends Component {
           </Route>
 
           <Route path="/Projects">
-            <Projects projs={projs} />
+            <Projects ProjectsInfo={ProjectsInfo} />
           </Route>
-          {rou}
+          
           <Route path="/Events">
             <Events EventList={EventList} />
           </Route>
